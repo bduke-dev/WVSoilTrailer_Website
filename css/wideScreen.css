@@ -152,11 +152,17 @@ html, body{
 #footerContent{
 	height:100%;
 	width:100%;
+    padding-left: 3em;
 }
+
 #footerContent img{
-    height: 2em;
+    height: 3em;
     vertical-align: middle;
+    padding-left: 0;
+    padding-right: .2em;
+    margin: 0;
 }
+
 .helper {
     display: inline-block;
     height: 100%;
@@ -164,10 +170,13 @@ html, body{
 }
 
 #footerContent p{
-    display: inline-block;
-    font-size: 1.5em;
-    vertical-align: middle;
-    padding-left: 2em;
+    color: #9ba0a0;
+    font-size: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .4em;
+    padding-right: 0;
+    margin: 0;
 }
 /*FOOTER> KEEP AT BOTTOM*/
 html,
@@ -191,6 +200,7 @@ body {;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    overflow-x: hidden;
 }
 
 /**********END GLOBAKL CSS**********/
