@@ -278,6 +278,22 @@ body {
     padding-right: 0;
     margin: 0;
 }
+#bduke{
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+}
+#bduke a{
+    font-size: 1em;
+    color: #9ba0a0;
+    text-decoration: none;
+}
+
 /*FOOTER> KEEP AT BOTTOM*/
 html,
 body {;
@@ -299,7 +315,7 @@ body {;
 	left:0;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 /**********END GLOBAKL CSS**********/
