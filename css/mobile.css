@@ -126,7 +126,8 @@ html, body{
 }
 #moverBlock{
   height:5em; 
-    width:100%; 
+  width:100%; 
+  background-color: white;
 }
 
 /* Pure CSS3 Hamburger*/
