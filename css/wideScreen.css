@@ -66,14 +66,14 @@ html, body{
 }
 
 #nav a.currentPage{
-	color: #808080;
+	color: #9ba0a0;
 }
 
 #nav ul li:hover{
 	background: #cab83b;
 }
 #nav ul li a:hover{
-	color: #808080;
+	color: #9ba0a0;
 }
 
 #nav ul ul{
@@ -179,12 +179,11 @@ html, body{
     margin: 0;
 }
 #bduke{
-    float: right;
-    padding-top: 6.3em;
-    padding-bottom: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
+    position: absolute;
+    padding: 0;
     margin: 0;
+    bottom: .5em;
+    right: .5em;
 }
 #bduke a{
     font-size: 1em;

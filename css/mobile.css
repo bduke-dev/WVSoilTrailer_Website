@@ -74,7 +74,7 @@ html, body{
     padding-left: 1em;
 }
 #nav a.currentPage{
-	color: #808080;
+	color: #9ba0a0;
 }
 #nav a {
 	display: block;
@@ -86,7 +86,7 @@ html, body{
     transition: .3s linear;
 }
 #nav a:hover{
-	color: #808080;
+	color: #9ba0a0;
 }
 
 /* Site Wrapper - Everything that isn't navigation */
@@ -175,7 +175,7 @@ html, body{
   display: block;
   width: 1.5em;
   height: .2em;
-  background-color: #fff;
+  background-color: #9ba0a0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -209,7 +209,7 @@ html, body{
   height: 2.5em;
   background-color: transparent;
   border-radius: 50%;
-  border: .2em solid #fff;
+  border: .2em solid #9ba0a0;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
