@@ -33,6 +33,9 @@ html, body{
 /* Navigation Menu - Background */
 #nav {
   background-color:#d9c53f;
+  background-image: url(../contents/grass.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
     
   /* critical sizing and position styles */
   width: 14em;
@@ -107,7 +110,9 @@ html, body{
 #blueBlock{
     width: 100%;
     height:5em;
-    background-color: #d9c53f;
+    /*background-color: #d9c53f;*/
+    background-image: url(../contents/grass.png);
+    background-position: bottom;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
     position: fixed;
     z-index: 10;
@@ -175,7 +180,7 @@ html, body{
   display: block;
   width: 1.5em;
   height: .2em;
-  background-color: #9ba0a0;
+  background-color: #666a6a;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -186,14 +191,23 @@ html, body{
 .clear-menu-btn .top {
   top: 35%;
   margin-left: .75em;
+  background-color: #9ba0a0;
+  z-index: 1;
+  border-radius: 500px;
 }
 .clear-menu-btn .middle {
   top: 50%;
   margin-left: .75em;
+  background-color: #9ba0a0;
+  z-index: 1;
+  border-radius: 500px;
 }
 .clear-menu-btn .bottom {
   top: 65%;
-  margin-left: .75em;    
+  margin-left: .75em;  
+  background-color: #9ba0a0;
+  z-index: 1;
+  border-radius: 500px;
 }
 .clear-menu-btn .circle {
   display: block;
@@ -207,9 +221,9 @@ html, body{
   transform: translate(-50%, -50%);
   width: 2.5em;
   height: 2.5em;
-  background-color: transparent;
+  /*background-color: transparent;*/
   border-radius: 50%;
-  border: .2em solid #9ba0a0;
+  border: .2em solid #666a6a;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
