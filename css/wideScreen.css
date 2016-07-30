@@ -38,7 +38,7 @@ html, body{
     position: relative;
     height: 6em;
 	width:100%;
-    /*background-color:#d9c53f;*/
+    background-color:#d9c53f;
     background-image: url(../contents/grass.png);
     background-position: bottom;
 }
