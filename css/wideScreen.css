@@ -26,7 +26,7 @@ html, body{
     transition: .25s linear;
 }
 #content a:hover{
-	color:#FF6A00;
+	color:#d9c53f;
 }
 
 /*NAV BAR*/
@@ -68,14 +68,14 @@ html, body{
 }
 
 #nav a.currentPage{
-	color: #9ba0a0;
+	color: #666a6a;
 }
 
 #nav ul li:hover{
 	background: #cab83b;
 }
 #nav ul li a:hover{
-	color: #9ba0a0;
+	color: #666a6a;
 }
 
 #nav ul ul{
@@ -191,6 +191,10 @@ html, body{
     font-size: 1em;
     color: #9ba0a0;
     text-decoration: none;
+    transition: .25s linear;
+}
+#bduke a:hover{
+	color:#d9c53f;
 }
 /*FOOTER> KEEP AT BOTTOM*/
 html,
