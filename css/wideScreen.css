@@ -159,7 +159,7 @@ html, body{
     height: 3em;
     vertical-align: middle;
     padding-left: 0;
-    padding-right: .2em;
+    padding-right: .5em;
     margin: 0;
 }
 
@@ -212,7 +212,6 @@ body {;
     padding: 0;
     margin: 0;
     overflow: hidden;
-    overflow-x: hidden;
 }
 
 /**********END GLOBAKL CSS**********/
