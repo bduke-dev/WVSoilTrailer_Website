@@ -39,8 +39,8 @@ html, body{
     height: 6em;
 	width:100%;
     background-color:#d9c53f;
-    background-image: url(../contents/grass.png);
-    background-position: bottom;
+    /*background-image: url(../contents/grass.png);
+    background-position: bottom;*/
 }
 #nav{
 	position: absolute;
@@ -339,3 +339,30 @@ body {;
 }
 
 /**********END CCD**********/
+
+/**********BEGIN 404**********/
+
+/*PAGE SIZE*/
+#main404{
+	margin-left: auto;
+    margin-right: auto;
+	width:70%;
+}
+
+/*TEXT*/
+#main404 h1{
+    font-size: 3em; 
+}
+
+/*IMAGE*/
+#main404 img{
+    display: block;
+    max-width: 540px;
+    max-height: 465px;
+    width: 60%;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+/**********END 404**********/
