@@ -31,9 +31,10 @@ body {
 #cssSlider> #pageNav {
     position: absolute;
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 15;
-    width: 100vw;
+    width: 100%;
     height: 10vw;
 }
 
@@ -86,10 +87,23 @@ body {
 }
 
 
+/*POSITION*/
+
+#cssSlider> #pageNav> #previousArrow> .slideL {
+    left: 2vw;
+}
+
+#cssSlider> #pageNav> #playPause> .playPauseBtn {
+    left: 50%;
+    margin: 0 0 0 -5vw;
+}
+
+#cssSlider> #pageNav> #nextArrow> .slideR {
+    right: 2vw;
+}
+
+
 /*ONLY DISPLAY IF ON SLIDER*/
-
-
-/*#cssSlider #sliderImages:hover ~ #pageNav,*/
 
 #cssSlider> #pageNav:hover> #previousArrow> .slideL,
 #cssSlider> #pageNav:hover> #playPause> .playPauseBtn,
@@ -109,21 +123,6 @@ body {
 
 #cssSlider> #play:checked~ #pageNav> #playPause> #playBtn {
     display: none;
-}
-
-
-/*POSITION*/
-
-#cssSlider> #pageNav> #previousArrow> .slideL {
-    left: 0;
-}
-
-#cssSlider> #pageNav> #playPause> .playPauseBtn {
-    left: 45vw;
-}
-
-#cssSlider> #pageNav> #nextArrow> .slideR {
-    left: 90vw;
 }
 
 
@@ -208,7 +207,7 @@ body {
     position: absolute;
     bottom: 0;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     z-index: 15;
 }
 
