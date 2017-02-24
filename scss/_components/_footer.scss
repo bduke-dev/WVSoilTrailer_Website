@@ -1,0 +1,96 @@
+/*FOOTER*/
+
+
+/*FOOTER CONTENT*/
+
+#footerContent {
+    height: 100%;
+}
+
+#footerContent img {
+    vertical-align: middle;
+    padding-left: 0;
+    margin: 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#footerContent p {
+    color: $footerText;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .4em;
+    padding-right: 0;
+    margin: 0;
+}
+
+
+/*FOOTER:WIDE SCREEN*/
+
+@media only screen and (min-width: 1001px) {
+    /*FOOTER CONTENT*/
+    #footerContent {
+        padding-left: 3em;
+        float: left;
+    }
+    #footerContent img {
+        height: 3em;
+        padding-right: .5em;
+    }
+    #footerContent p {
+        font-size: 2em;
+    }
+}
+
+
+/*FOOTER:NARROW SCREEN*/
+
+@media only screen and (max-width: 1000px) {
+    /*FOOTER CONTENT*/
+    #footerContent {
+        width: 100%;
+        padding-left: 10%;
+    }
+    #footerContent img {
+        height: 2.5em;
+        padding-right: .3em;
+    }
+    #footerContent p {
+        font-size: 1.5em;
+    }
+}
+
+
+/*FOOTER> KEEP AT BOTTOM*/
+
+html,
+body {
+    ;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#content {
+    padding-bottom: 6em;
+    /* Height of the footer element */
+}
+
+#footer {
+    background: $mainAccent;
+    width: 100%;
+    height: 8em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}

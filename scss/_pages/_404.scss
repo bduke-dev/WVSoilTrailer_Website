@@ -1,0 +1,39 @@
+/**********BEGIN NOT FOUND**********/
+
+
+/*IMAGE*/
+
+#main404 img {
+    display: block;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*IMAGE*/
+
+
+/*NAV:WIDE SCREEN*/
+
+@media only screen and (min-width: 1001px) {
+    #main404 img {
+        max-width: 540px;
+        max-height: 465px;
+        width: 60%;
+        margin-bottom: 2em;
+    }
+}
+
+
+/*NAV:NARROW SCREEN*/
+
+@media only screen and (max-width: 1000px) {
+    #main404 img {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
+
+
+/**********END NOT FOUND**********/
