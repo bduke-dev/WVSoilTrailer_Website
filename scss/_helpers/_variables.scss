@@ -1,12 +1,21 @@
 //Globla Variables
 $fontColor: #5B5B5B; //updated
-$hoverColor: yellow; //updated
+$hoverColor: #FFFF00; //updated
 //nav
 $navBackground: rgba(255, 255, 255, 0.70);
 $navNarrow: #594444;
-//font colors
-$navTextMain: #FFFF00;
+//nav font colors
+$navTextMain: $hoverColor;
 $navTextAlt: #548f42; //62a84d;
+//footer
+$footer: $navNarrow;
+//foter font colors
+$footerTextMain: $navTextAlt;
+$pathColor: $hoverColor;
+
+//
+//
+//
 //main Variables
 $mainColor: $hoverColor; //updated
 $mainColorShade: #cab83b; //updated
