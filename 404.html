@@ -7,61 +7,43 @@
     <meta name="theme-color" content="#d9c53f">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="http://wvsoiltrailer.org/contents/favicon.ico" type="image/x-icon" />
-    <link rel='stylesheet' media='screen and (max-width: 1000px)' href='http://wvsoiltrailer.org/css/mobile.css' />
-    <link rel='stylesheet' media='screen and (min-width: 1001px)' href='http://wvsoiltrailer.org/css/wideScreen.css' />
+    <link rel='stylesheet' href='http://wvsoiltrailer.org/css/style.css' />
 </head>
 
 <body id="top">
-    <nav id="navContainer">
-        <a href="http://wvsoiltrailer.org"><img src="http://wvsoiltrailer.org/contents/Soil.png" /></a>
-        <div id="nav">
-            <ul>
-                <li id="navHome">
-                    <p>-</p>
-                </li>
-                <!--Spacer for mobile nav-->
-                <li id="navHome">
-                    <p><a href="http://wvsoiltrailer.org">HOME</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/contact/">CONTACT US</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/sponsoring/">SPONSORING</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/about/">ABOUT</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/media/">MEDIA</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/resources/">RESOURCES</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/calendar/">CALENDAR</a></p>
-                </li>
-                <li>
-                    <p><a href="http://wvsoiltrailer.org/ccd/">CCD</a></p>
-                </li>
-            </ul>
-        </div>
+    <!--nav-->
+    <input type="checkbox" class="nav-open">
+    <img src="contents/img/arrow.svg" class="nav-open-img">
+    <nav>
+        <a class="narrow" href="/">Soil</a>
+        <ul>
+            <li>
+                <a href="contact/">Contact</a>
+            </li>
+            <li>
+                <a href="sponsoring/">Sponsor</a>
+            </li>
+            <li>
+                <a href="about/">About</a>
+            </li>
+            <li class="wide">
+                <a class="currentPage" href="/">Soil</a>
+            </li>
+            <li>
+                <a href="media/">Media</a>
+            </li>
+            <li>
+                <a href="resources/">Resources</a>
+            </li>
+            <li>
+                <a href="ccd/">CCD</a>
+            </li>
+        </ul>
     </nav>
-
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-
-    <div class="clear-menu-btn">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-        <span class="circle"></span>
-    </div>
-
-    <div id="blueBlock"></div>
-    <!--Used for mobile navigation-->
+    <!--/nav-->
 
     <div id="wrapper">
-        <div id="moverBlock"></div>
+        <div class="mobile-nav-spacer"></div>
         <main id="content">
             <div class="seperator"></div>
             <div id="main404">
@@ -71,18 +53,21 @@
             </div>
             <div class="seperator"></div>
         </main>
-        <footer id="footer">
-            <div id="footerContent">
-                <p>Connect With Us</p>
-                <div>
-                    <a target="_blank" href="https://www.facebook.com/The-West-Virginia-Soil-Trailer-1806437696252275"><span class="helper"></span><img src="http://wvsoiltrailer.org/contents/socialIcons/facebook.svg" onerror="this.src='http://wvsoiltrailer.org/contents/socialIcons/facebook.png'; this.onerror=null;"/></a>
-                    <a target="_blank" href=""><span class="helper"></span><img src="http://wvsoiltrailer.org/contents/socialIcons/instagram.svg" onerror="this.src='http://wvsoiltrailer.org/contents/socialIcons/instagram.png'; this.onerror=null;"/></a>
-                    <a target="_blank" href=""><span class="helper"></span><img src="http://wvsoiltrailer.org/contents/socialIcons/youtube.svg" onerror="this.src='http://wvsoiltrailer.org/contents/socialIcons/youtube.png'; this.onerror=null;"/></a>
-                    <a target="_blank" href=""><span class="helper"></span><img src="http://wvsoiltrailer.org/contents/socialIcons/contact.svg" onerror="this.src='http://wvsoiltrailer.org/contents/socialIcons/contact.png'; this.onerror=null;"/></a>
-                </div>
+        <!--footer-->
+        <footer>
+            <div class="footer-title">
+                <a href="/">Soil</a>
             </div>
-            <p id="bduke"><a target="_blank" href="https://bmduke1997.github.io/">A b.duke Site</a></p>
+            <div class="icons">
+                <a target="_blank" href="https://www.facebook.com/The-West-Virginia-Soil-Trailer-1806437696252275">
+            <svg class="facebook" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg>
+        </a>
+            </div>
+            <div class="tag">
+                <p>2017 West Virginia Soil Trailer</p>
+            </div>
         </footer>
+        <!--/footer-->
     </div>
 </body>
 

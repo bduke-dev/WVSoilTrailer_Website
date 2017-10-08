@@ -9,61 +9,43 @@
     <link rel="apple-touch-icon" sizes="57x57" href="../contents/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="../contents/apple-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="../contents/apple-icon-144x144.png" />
-    <link rel='stylesheet' media='screen and (max-width: 1000px)' href='../css/mobile.css' />
-    <link rel='stylesheet' media='screen and (min-width: 1001px)' href='../css/wideScreen.css' />
+    <link rel='stylesheet' href='../css/style.css' />
 </head>
 
 <body id="top">
-    <nav id="navContainer">
-        <a href="../"><img src="../contents/Soil.png" /></a>
-        <div id="nav">
-            <ul>
-                <li id="navHome">
-                    <p>-</p>
-                </li>
-                <!--Spacer for mobile nav-->
-                <li id="navHome">
-                    <p><a href="../">HOME</a></p>
-                </li>
-                <li>
-                    <p><a class="currentPage" href="../contact/">CONTACT US</a></p>
-                </li>
-                <li>
-                    <p><a href="../sponsoring/">SPONSORING</a></p>
-                </li>
-                <li>
-                    <p><a href="../about/">ABOUT</a></p>
-                </li>
-                <li>
-                    <p><a href="../media/">MEDIA</a></p>
-                </li>
-                <li>
-                    <p><a href="../resources/">RESOURCES</a></p>
-                </li>
-                <li>
-                    <p><a href="../calendar/">CALENDAR</a></p>
-                </li>
-                <li>
-                    <p><a href="../ccd/">CCD</a></p>
-                </li>
-            </ul>
-        </div>
+    <!--nav-->
+<input type="checkbox" class="nav-open">
+    <img src="../contents/img/arrow.svg" class="nav-open-img">
+    <nav>
+        <a class="narrow" href="../">Soil</a>
+        <ul>
+            <li>
+                <a class="currentPage" href="../contact/">Contact</a>
+            </li>
+            <li>
+                <a href="../sponsoring/">Sponsor</a>
+            </li>
+            <li>
+                <a href="../about/">About</a>
+            </li>
+            <li class="wide">
+                <a href="../">Soil</a>
+            </li>
+            <li>
+                <a href="../media/">Media</a>
+            </li>
+            <li>
+                <a href="../resources/">Resources</a>
+            </li>
+            <li>
+                <a href="../ccd/">CCD</a>
+            </li>
+        </ul>
     </nav>
-
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-
-    <div class="clear-menu-btn">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-        <span class="circle"></span>
-    </div>
-
-    <div id="blueBlock"></div>
-    <!--Used for mobile navigation-->
+    <!--/nav-->
 
     <div id="wrapper">
-        <div id="moverBlock"></div>
+        <div class="mobile-nav-spacer"></div>
         <main id="content">
             <div class="seperator"></div>
             <div id="mainContact">
@@ -73,18 +55,21 @@
             </div>
             <div class="seperator"></div>
         </main>
-        <footer id="footer">
-            <div id="footerContent">
-                <p>Connect With Us</p>
-                <div>
-                    <a target="_blank" href="https://www.facebook.com/The-West-Virginia-Soil-Trailer-1806437696252275"><span class="helper"></span><img src="../contents/socialIcons/facebook.svg" onerror="this.src='../contents/socialIcons/facebook.png'; this.onerror=null;"/></a>
-                    <a target="_blank" href=""><span class="helper"></span><img src="../contents/socialIcons/instagram.svg" onerror="this.src='../contents/socialIcons/instagram.png'; this.onerror=null;"/></a>
-                    <a target="_blank" href=""><span class="helper"></span><img src="../contents/socialIcons/youtube.svg" onerror="this.src='../contents/socialIcons/youtube.png'; this.onerror=null;"/></a>
-                    <a target="_blank" href=""><span class="helper"></span><img src="../contents/socialIcons/contact.svg" onerror="this.src='../contents/socialIcons/contact.png'; this.onerror=null;"/></a>
-                </div>
-            </div>
-            <p id="bduke"><a target="_blank" href="https://bmduke1997.github.io/">A b.duke Site</a></p>
-        </footer>
+        <!--footer-->
+<footer>
+    <div class="footer-title">
+        <a href="../">Soil</a>
+    </div>
+    <div class="icons">
+        <a target="_blank" href="https://www.facebook.com/The-West-Virginia-Soil-Trailer-1806437696252275">
+            <svg class="facebook" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg>
+        </a>
+    </div>
+    <div class="tag">
+        <p>2017 West Virginia Soil Trailer</p>
+    </div>
+</footer>
+        <!--/footer-->
     </div>
 </body>
 

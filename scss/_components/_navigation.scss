@@ -5,6 +5,7 @@ nav * {
 
 nav a {
     font-family: 'huruf';
+    transition: .25s linear;
 }
 
 
@@ -12,9 +13,11 @@ nav a {
 
 @media only screen and (min-width: 1001px) {
     /*NAV BAR*/
+    #home-ind ~ nav {
+        position: absolute;
+    }
     nav {
         z-index: 10;
-        position: absolute;
         height: 6em;
         width: 100%;
         top: 0;
@@ -66,7 +69,6 @@ nav a {
         }
         margin: 0 1em;
         text-decoration: none;
-        transition: .25s linear;
         &:hover {
             color: $navTextAlt;
         }
@@ -86,6 +88,11 @@ nav a {
 
 @media only screen and (max-width: 1000px) {
     /*NAV BAR*/
+    .mobile-nav-spacer {
+        height: 4em;
+        width: 100%;
+    }
+
     nav {
         background-color: $navNarrow;
         height: 4em;
@@ -109,7 +116,7 @@ nav a {
         display: block;
         width: 100%;
         background-color: $navNarrow;
-        max-height: 0;
+        height: 0;
         overflow: hidden;
         transition: all 1s ease-in-out;
 
@@ -120,6 +127,13 @@ nav a {
                 font-size: 2.5em;
                 text-decoration: none;
                 color: $navTextAlt;
+
+                &:hover {
+                    color: $navTextMain;
+                }
+                &.currentPage {
+                    color: $navTextMain;
+                }
             }
         }
     }
@@ -135,7 +149,7 @@ nav a {
         cursor: pointer;
 
         &:checked ~ nav > ul {
-            max-height: 50em;
+            height: calc( 100vh - 4em);
             overflow: auto;
         }
 
