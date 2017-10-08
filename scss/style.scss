@@ -17,11 +17,10 @@
 @import '_pages/_about';
 @import '_pages/_media';
 @import '_pages/_resources';
-@import '_pages/_calendar';
 @import '_pages/_ccd';
 
 /**********BEGIN CSS SLIDER**********/
 
-@import '_vendors/_cssSlider';
+@import '_vendors/_cssSliderScss/_cssSlider';
 
 /**********END CSS SLIDER**********/
