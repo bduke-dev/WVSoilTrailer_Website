@@ -77,6 +77,9 @@
     }
 }
 
+#bduke {
+    font-size: 1.5em !important;
+}
 
 
 /*FOOTER:WIDE SCREEN*/
@@ -86,7 +89,14 @@
 
 /*FOOTER:NARROW SCREEN*/
 
-@media only screen and (max-width: 1000px) {}
+@media only screen and (max-width: 1000px) {
+    .saying {
+        height: 4em !important;
+    }
+    #bduke {
+        bottom: 1.5em !important;
+    }
+}
 
 
 /*FOOTER> KEEP AT BOTTOM*/
