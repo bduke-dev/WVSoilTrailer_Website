@@ -46,7 +46,10 @@ main ol > li {
 
 /*LINK COLOR*/
 
+main a {
+    transition: .25s linear;
+}
+
 main a:hover {
     color: $hoverColor;
-    transition: .25s linear;
 }

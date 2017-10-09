@@ -1,4 +1,24 @@
 /**********BEGIN ALL MEDIA PAGES**********/
 
+#mainMedia {
+    text-align: center;
+}
+
+#media-iframe-wrapper {
+    position: relative;
+    padding-bottom: 75%;
+    /*to find % aspect ratio, (height/width)100*/
+    height: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#media-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /**********END ALL MEDIA PAGES**********/

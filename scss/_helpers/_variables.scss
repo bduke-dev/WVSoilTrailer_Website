@@ -1,34 +1,16 @@
 //Globla Variables
 $fontColor: #5B5B5B; //updated
-$hoverColor: #FFFF00; //updated
+$hoverColor: #548f42; //updated
 //nav
 $navBackground: rgba(255, 255, 255, 0.70);
 $navNarrow: #594444;
 //nav font colors
-$navTextMain: $hoverColor;
+$navTextMain: #FFFF00;
 $navTextAlt: #548f42; //62a84d;
 //footer
 $footer: $navNarrow;
 //foter font colors
 $footerTextMain: $navTextAlt;
-$pathColor: $hoverColor;
-
-//
-//
-//
-//main Variables
-$mainColor: $hoverColor; //updated
-$mainColorShade: #cab83b; //updated
-$mainAccent: #594444; //updsated
-//navigation Variables
-$navHoverColor: #666a6a; //updtaed
-$navText: white; //updated
-$navHam: $navHoverColor;
-$navLines: #9ba0a0;
-//footer Variables
-$footerAccent: #262626;
-$footerColor: #111111;
-$footerText: $navLines; //updated
-//resources Variables
-$cardBackgrounds: #D6D6D6;
-$buttonHover: #262626;
+$pathColor: #FFFF00;
+//other vars
+$cardBackground: #D6D6D6;
